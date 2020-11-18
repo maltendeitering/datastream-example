@@ -1,6 +1,8 @@
-# Exemplary Datastream using Apache Kafka and Docker
+# Datastream Example
 
-I needed an exemplary datastream based on Apache Kafka and Docker. As I couldn't find something suitable I created this docker-compose App that provides an exemplary datastream. Maybe someone else finds this useful. The datastream periodically inserts data to a kafka topic called 'stream'
+I needed an exemplary datastream based on Apache Kafka and Python for a project. As I couldn't find something suitable I created this docker-compose App that provides an exemplary datastream. Maybe someone else finds this useful. The datastream periodically inserts data to a kafka topic called 'stream'
+
+Data should be placed in the data folder. The filename must be specified in the Dockerfile.
 
 ## Requirements
 - kafka-python (https://pypi.org/project/kafka-python/)
